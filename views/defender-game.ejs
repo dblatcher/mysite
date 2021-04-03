@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title><%= title %> - defender</title>
+</head>
+
+<body>
+  <main class="not-hidden">
+    <nav>
+      <button id="pauseButton">pause</button>
+      <button id="resetButton">reset</button>
+      <p>Score:<span id="score"></span></p>
+      <p>Level:<span id="level"></span></p>
+      <p><a href="/">homepage</a></p>
+    </nav>
+    <figure>
+      <canvas id="gameCanvas"></canvas>
+      <figcaption id="caption" style="display: block;"></figcaption>
+    </figure>
+  </main>
+
+
+  <script src="javascripts/defender.bundle.js"></script>
+</body>
+
+</html>

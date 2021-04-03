@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: antiquewhite;
+}
+
+a {
+  color: orangered;
+}
+
+.homepage-header {
+  border-bottom: 5px double purple;
+  margin-bottom: 1rem;
+}
+
+.homepage-header h1 {
+  color: purple;
+  font-size: 50px;
+  margin: 0;
+}
+
+.homepage-header h1 span {
+  font-size: 25%;
+}
+
+.homepage-section {
+  display: inline-block;
+  margin: 0 1rem 1rem 0;
+  padding: .5rem;
+  border: 1px solid black;
+  min-width: 10rem;
+}
